@@ -1,0 +1,66 @@
+QUORIDOR
+
+Components
+-one board
+-14 fences
+-2 pawns
+
+
+Object of the Game
+
+-To be the first to reach the line opposite to one's base line.
+
+Game Play
+
+-Each player in turn, chooses to move his pawn or to put up one of his fences. When he has run out of fences, the player must move his pawn.
+
+-Initially the board has just two pawns one white(for player 1) and one black(for player 2) .Both the pawns are placed at the centre of the first column on the players side.
+
+-White always moves first.
+
+-The pawns move one square at a time horizontally or vertically,never diagonally.
+
+-The pawns must bypass the fences . If, while you move, you face your opponent's pawn you can jump over.
+
+
+-The fences MUST be placed next to EXACTLY 2 squares , no more no less.
+
+-By placing fences, you force your opponent to move around it and increase the number of moves they need to make. But be careful, you are not allowed to lock up your opponents pawn, it must always be able to reach it's goal by at least one square.
+
+-If a player completely blocks the path of opponent or himself, the game will be declared as a stalemate and it is a draw.
+
+-When two pawns face each other on neighboring squares which are not separated by a fence, the player whose turn it is can jump the opponent's pawn (and place himself behind him), thus advancing an extra square. 
+
+
+Game win
+
+-The first player who reaches one of the 9 squares opposite his base line is the winner 
+
+
+
+Notations
+
+-Notations are the form of input given by the user for movement of the pawn within allowed boundaries.
+
+-Notations are in consideration to the pre defined co-ordinates of the board, where a player needs to enter the co-ordinates of the block they want to move the pawn to.
+
+-For example, notation e2 stands for column "e" and row "2".
+
+-Notation for walls : e2v stands for a horizontal wall placed by the user on the bottom of e2 cell for 2 consecutive blocks.
+
+-Similarly, e2h stands for a vertical wall placed by the user on the right of e2 cell for 2 consecutive blocks.
+
+
+Commands
+
+-SHOW : Shows the notation table where all the moves given by the users are stored.
+
+-RULE : Shows the rule card stating all the rules in brief.
+
+-WALL : Shows the number of walls left for the player who has given the particular command.
+
+-QUIT : This command allows the user to end the game.
+
+
+
+
